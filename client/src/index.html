@@ -2,12 +2,17 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="./styles.css">
-    <script src="node_modules/angular/angular.js"></script>
+    <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="../../node_modules/angular/angular.js"></script>
+    <script src="./index.js"></script>    
   </head>
-  <body>
-    <app ng-app="angular-party-time">
-      Sadface no angular yet :(
-    </app>
-
+  <body ng-app="app">
+    <main></main>
+    <script src="./seed/cohort.js"></script>
+    <script src="./seed/calendar.js"></script>
+    <script src="./components/cohortRosterList.js"></script>
+    <script src="./components/cohortRosterEntry.js"></script>
+    <script src="./components/randomPairsList.js"></script>
+    <script src="./components/calendar.js"></script>
   </body>
 </html>
